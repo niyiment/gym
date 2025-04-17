@@ -1,0 +1,15 @@
+
+
+
+spring:
+  application:
+    name: gym
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fitness
+    username: myuser
+    password: secret
+
+  jpa:
+    hibernate:
+      ddl-auto: update
