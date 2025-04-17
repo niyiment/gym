@@ -65,7 +65,6 @@ public class MembershipPlan {
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
 
-    // Utility methods
     public String getFormattedPrice() {
         return "$" + price;
     }
